@@ -49,6 +49,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind css","javascript"],
+    link:"mohd-amir-3btx4fa8v-choudharyaamir828s-projects.vercel.app"
   },
 
 ];
