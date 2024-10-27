@@ -3,6 +3,7 @@ import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3 } from 'react-icons/fa';
 import { FaJsSquare } from 'react-icons/fa';
 import { FaGitSquare } from 'react-icons/fa';
+import { FaDatabase } from 'react-icons/fa';
 import {motion} from "framer-motion"
 
 const iconVariants = (duration) => ({
@@ -40,6 +41,7 @@ const Technologies = () => {
             className="p-4">
             <FaPython className="text-7xl text-yellow-400" />
             </motion.div>
+
             <motion.div
               initial = "initial"
               animate = "animate"
@@ -47,6 +49,7 @@ const Technologies = () => {
                className='p-4'>
               <FaHtml5 className="text-7xl text-cyan-500" />
             </motion.div>
+
             <motion.div
               initial = "initial"
               animate = "animate"
@@ -54,6 +57,7 @@ const Technologies = () => {
              className='p-4'>
             <FaCss3 className="text-7xl text-red-500" />
             </motion.div>
+
             <motion.div
               initial = "initial"
               animate = "animate"
@@ -61,6 +65,7 @@ const Technologies = () => {
              className='p-4'>
             <FaJsSquare className="text-7xl text-cyan-400" />
             </motion.div>
+
             <motion.div
               initial = "initial"
               animate = "animate"
@@ -68,6 +73,17 @@ const Technologies = () => {
              className='p-4'>
             <FaGitSquare className="text-7xl text-red-400" />
             </motion.div>
+
+            <motion.div
+                   initial="initial"
+                   animate="animate"
+                 variants={iconVariants(1.5)}
+                 className="p-4"
+                 >
+              <FaDatabase className="text-7xl text-blue-600" />
+            </motion.div>
+
+
 
         </motion.div>
     </div>
