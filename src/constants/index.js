@@ -36,6 +36,15 @@ export const PROJECTS = [
     link: "https://diabetesprediction-ml.onrender.com/",
   },
   {
+    title: "Plant Identifier",
+    image: project3,
+    description:
+      "PlantWise is an AI-powered plant identification and care application that enables users to easily identify plants through image uploads and receive detailed insights on plant species. Designed to support plant enthusiasts, gardeners, and hobbyists, the app provides comprehensive information on plant characteristics, growing conditions, care tips, pest control methods, and more.",
+    technologies: [ "CSS", "React", "Tailwind css","Next.js","Google Generative AI","Git","Render"],
+    link:"https://plantwise-nii2.onrender.com"
+  },
+  
+  {
     title: "Razorpay clone",
     image: project2,
     description:
@@ -43,6 +52,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS","Tailwind CSS"],
 
   },
+
   {
     title: "Portfolio Website",
     image: project3,
@@ -51,6 +61,9 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind css","javascript"],
     link:"mohd-amir-3btx4fa8v-choudharyaamir828s-projects.vercel.app"
   },
+ 
+  
+
 
 ];
 
