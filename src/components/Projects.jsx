@@ -8,14 +8,14 @@ const Projects = () => {
         <div>
         {PROJECTS.map((project,index)=>(
         <div key= {index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
+            <div className="w-full lg:w-1/4 ">
             <img src={project.image}
             width={250} 
             height={250}
             alt={project.title} 
             className="mb-6 rounded"/>
             </div>
-            <div className="w-full max-w-xl lg:w-3/4"> 
+            <div className="w-full max-w-xl lg:w-3/4 "> 
             <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
             <p className="mb-4 text-stone-400">{project.description}</p>
             {project.technologies.map((tech,index) =>(
@@ -26,7 +26,7 @@ const Projects = () => {
             ))}
             
 
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="underline  ">
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="underline   ">
                 View Project
                </a>
             </div>

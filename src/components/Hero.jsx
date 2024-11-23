@@ -38,7 +38,7 @@ const Hero = () => {
                 target="_blank " rel="noopener noreferrer"
                 download
                 className="bg-white rounded-full p-4 text-sm
-                text-stone-800 mb-10">Download Resume</a>
+                text-stone-800 mb-10 ">Download Resume</a>
                 </motion.div>
             </div>
         </div>
